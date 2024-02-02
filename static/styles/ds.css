@@ -1,5 +1,3 @@
-
-
 :root {
   --pri: #fcf5ed;
   --sec: #f4bf96;
@@ -8,7 +6,7 @@
   --brds: 10px;
   --bsze: 2px;
 }
-.border {
+.plc-border {
   border: var(--bsze) solid var(--txt);
 }
 #palette {

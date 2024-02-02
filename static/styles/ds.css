@@ -8,8 +8,5 @@
 }
 .plc-border {
   border: var(--bsze) solid var(--txt);
-}
-#palette {
-  width: 200px;
-  height: 200px;
-}
+  border: var(--bsze) solid var(--txt);
+} 

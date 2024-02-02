@@ -1,8 +1,8 @@
 export default function index()
 {
   return(
-    <div id="palette">
-      
+    <div id="palette" class="border">
+
     </div>
   )
 }

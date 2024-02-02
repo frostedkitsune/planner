@@ -1,0 +1,15 @@
+:root {
+  --pri: #fcf5ed;
+  --sec: #f4bf96;
+  --ace: #ce5a67;
+  --txt: #1f1717;
+  --brds: 10px;
+  --bsze: 2px;
+}
+.border {
+  border: var(--bsze) solid var(--txt);
+}
+#palette {
+  width: 200px;
+  height: 200px;
+}

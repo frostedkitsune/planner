@@ -1,5 +1,4 @@
 
-
 :root {
   --pri: #fcf5ed;
   --sec: #f4bf96;
@@ -10,8 +9,4 @@
 }
 .border {
   border: var(--bsze) solid var(--txt);
-}
-#palette {
-  width: 200px;
-  height: 200px;
-}
+} 

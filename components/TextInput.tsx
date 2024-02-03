@@ -6,6 +6,7 @@ export default function TextInput(props:any) {
         name={props.name}
         type="text"
         class="rounded-[--brds] p-2 focus:outline active:outline hover:outline outline-2 outline-[--txt]"
+        required={props.required}
       />
     </>
   );

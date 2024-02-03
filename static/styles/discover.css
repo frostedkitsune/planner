@@ -1,0 +1,98 @@
+*{
+    color: var(--txt);
+}
+
+#discover-wrap {
+    content: "ghxgf";
+    display: grid;
+    grid-template-areas: "topnav topnav"
+    "filter dashboard";
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr 9fr;
+    background-color: var(--sec);
+}
+#top-nav {
+    grid-area: topnav;
+    grid-template-columns: 1fr 11fr 2fr;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+
+#plc-back {
+    padding-top: 10px;
+
+}
+
+#plc-login {
+    grid-template-columns: 1fr 2fr;
+}
+
+#plc-login h1 {
+    padding-top: 8px;
+
+    padding-right: 16px;
+}
+
+#filter {
+    grid-area: filter;
+}
+
+#dashboard {
+    grid-area: dashboard;
+    border-top: var(--bsze) solid var(--txt);
+    border-left: var(--bsze) solid var(--txt);
+    background-color: var(--pri);
+}
+
+.plc-tr {
+    color: var(--ace);
+}
+
+.plc-tags {
+    display: inline-block;
+    border: 1.5px solid var(--ace);
+    border-radius: calc(var(--brds) + 10px);
+    background-color: #fdd4d8;
+    padding: 0 8px 2px 8px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+}
+
+h1, label {
+    font-weight: 600;
+}
+
+.plc-coutr {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.plc-coutr::after {
+    content: '';
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to right, #261C23, #0000);
+    width: 400px;
+    height: 200px;
+}
+
+.plc-coutr img{
+    position: absolute;
+}
+.plc-coutr h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: #fdd4d8;
+    z-index: 100;
+}
+
+.plc-coutr h2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fdd4d8;
+    z-index: 100;
+}

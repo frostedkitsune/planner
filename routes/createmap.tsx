@@ -1,5 +1,6 @@
 import TextArea from "../components/TextArea.tsx";
 import TextInput from "../components/TextInput.tsx";
+import Toogle from "../components/Toogle.tsx";
 import Resource from "../islands/Resource.tsx";
 
 export default function createmap() {
@@ -15,12 +16,7 @@ export default function createmap() {
           <TextArea name="tags" label="Provide Tags" />
           <Resource />
           <div className="project mt-2">
-            <label>Project showcase</label>
-
-            <input
-              type="checkbox"
-              className="w-4 h-4 ml-2"
-            />
+            <Toogle value="Project Showcase"/>
           </div>
         </div>
       </div>

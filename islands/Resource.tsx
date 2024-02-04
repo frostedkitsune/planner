@@ -29,7 +29,7 @@ export default function Resource() {
   return (
     <div className="bg-[--pri] w-11/12 rounded-[--brds] mt-2 p-2">
       <label>Add Resources</label>
-      <div className="items p-2 mt-2 rounded-[--brds] overflow-scroll h-40">
+      <div className="items p-2 mt-2 rounded-[--brds] overflow-y-scroll h-40">
         <ul>
           {resources}
         </ul>

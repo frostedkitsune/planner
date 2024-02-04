@@ -9,7 +9,6 @@ import * as $api_joke from "./routes/api/joke.ts";
 import * as $createmap from "./routes/createmap.tsx";
 import * as $dashboard from "./routes/dashboard.tsx";
 import * as $discover from "./routes/discover.tsx";
-import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $progress from "./routes/progress.tsx";
 import * as $Counter from "./islands/Counter.tsx";
@@ -26,7 +25,6 @@ const manifest = {
     "./routes/createmap.tsx": $createmap,
     "./routes/dashboard.tsx": $dashboard,
     "./routes/discover.tsx": $discover,
-    "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
     "./routes/progress.tsx": $progress,
   },

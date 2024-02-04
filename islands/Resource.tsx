@@ -19,7 +19,7 @@ export default function Resource() {
     e.preventDefault();
     console.log("submit", mapInput);
     const ele: h.JSX.Element = (
-      <li className="plc-li">
+      <li className="plc-li bg-white rounded-lg my-2 py-2 px-4">
         <a href={mapInput}>{mapInput}</a>
       </li>
     );
@@ -27,9 +27,9 @@ export default function Resource() {
   };
 
   return (
-    <div className="bg-[--pri] w-[300px] rounded-[--brds]  mt-2 p-2">
+    <div className="bg-[--pri] w-11/12 rounded-[--brds] mt-2 p-2">
       <label>Add Resources</label>
-      <div className="items p-2 mt-2 rounded-[--brds] overflow-scroll max-h-24 h-24">
+      <div className="items p-2 mt-2 rounded-[--brds] overflow-scroll h-40">
         <ul>
           {resources}
         </ul>

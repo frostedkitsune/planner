@@ -10,6 +10,7 @@ import * as $createmap from "./routes/createmap.tsx";
 import * as $dashboard from "./routes/dashboard.tsx";
 import * as $discover from "./routes/discover.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $map_id_ from "./routes/map/[id].tsx";
 import * as $progress from "./routes/progress.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $Resource from "./islands/Resource.tsx";
@@ -26,6 +27,7 @@ const manifest = {
     "./routes/dashboard.tsx": $dashboard,
     "./routes/discover.tsx": $discover,
     "./routes/index.tsx": $index,
+    "./routes/map/[id].tsx": $map_id_,
     "./routes/progress.tsx": $progress,
   },
   islands: {
